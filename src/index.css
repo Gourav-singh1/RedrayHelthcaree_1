@@ -1,0 +1,57 @@
+.Hero_section .hero-slide {
+  height: 83vh;
+}
+.Hero_section .p-carousel .p-carousel-indicators {
+  transform: translateY(-70px);
+  padding: 1rem;
+}
+
+.Hero_section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.507);
+}
+.Hero_section .p-carousel-prev {
+  left: 10px;
+  position: absolute;
+  color: blue !important;
+  z-index: 2;
+}
+.Hero_section .p-carousel-next {
+  right: 10px;
+  position: absolute;
+  color: blue !important;
+}
+/* Zoom effect for images */
+.zoom-effect {
+  transform: scale(1);
+  transition: transform 8s ease-in-out;
+}
+
+.p-carousel-item-active .zoom-effect {
+  transform: scale(1.2); /* Zoom to 120% */
+}
+
+/* products css  */
+
+.active-tab {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.active-tab::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 3px;
+  width: 100%;
+  background-color: #000;
+  transform: scaleX(1) !important; 
+  transition: transform 0.3s ease-in-out;
+}
