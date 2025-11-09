@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import OIP from "../assets/images/Webp/OIP.webp";
-import open_mri from "../assets/images/Webp/open-mri.webp";
-import PrimaryButton from "../shared/Button/PrimaryButton";
+import team_image from "../assets/images/webp/team_image.webp";
 import DialogForm from "../components/DialogForm";
 import AboutSection from "../components/AboutSection";
 
@@ -25,8 +23,8 @@ function AboutUs() {
             className="w-full hidden sm:inline-block"
             data-aos="zoom-in"
             data-aos-offset="200"
-            src={OIP}
-            alt="OIP"
+            src={team_image}
+            alt="team_image"
           />
         </div>
       </section>
