@@ -1,7 +1,7 @@
 import React from "react";
 import PrimaryButton from "../shared/Button/PrimaryButton";
 import { Link } from "react-router-dom";
-import aboutsection from "../assets/images/Webp/aboutsection.webp";
+import aboutsection from "../assets/images/webp/aboutsection.webp";
 
 function AboutSection() {
   return (
