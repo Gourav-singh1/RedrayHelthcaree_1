@@ -702,7 +702,7 @@ export default function HomePage() {
         </div>
       </section> */}
       {/* location_section   ===== */}
-      <section className="location_section">
+      {/* <section className="location_section">
         <div className="container py-5">
           <div
             className="grid justify-content-center"
@@ -737,7 +737,7 @@ export default function HomePage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
