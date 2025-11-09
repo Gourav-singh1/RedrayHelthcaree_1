@@ -1,7 +1,7 @@
 import React from "react";
 import PrimaryButton from "../shared/Button/PrimaryButton";
 import { Link } from "react-router-dom";
-import open_mri from "../assets/images/Webp/open-mri.webp";
+import aboutsection from "../assets/images/Webp/aboutsection.webp";
 
 function AboutSection() {
   return (
@@ -49,8 +49,8 @@ function AboutSection() {
               data-aos="fade-left"
               data-aos-delay={800}
               //   data-aos-offset="200"
-              src={open_mri}
-              alt="open mri"
+              src={aboutsection}
+              alt="aboutsection"
             />
           </div>
         </div>
