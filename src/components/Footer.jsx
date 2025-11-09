@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import footerLogo from "../assets/images/Svg/footerLogo.svg";
+import footerlogo from "../assets/images/webp/footerlogo.webp";
 import { getCategory } from "../redux/actions/CategoryAction";
 import { useDispatch, useSelector } from "react-redux";
 function Footer() {
@@ -14,7 +14,7 @@ function Footer() {
         <div className="container py-5">
           <div className="grid">
             <div className="col-12 sm:col-6 md:col-4">
-              <img width={150} src={footerLogo} alt="footerLogo" />
+              <img width={150} src={footerlogo} alt="footerlogo" />
               <h1 className="text-white text-xs font-bold">
                 Radrays Helthcare
               </h1>
