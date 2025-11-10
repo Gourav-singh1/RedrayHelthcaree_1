@@ -7,6 +7,6 @@ export const getStats = (setStatsLoading) => async (dispatch) => {
   const res = await api("get", Constants.END_POINT.STATS);
   if (res.success && res.data) {
     dispatch(setStats(res.data));
+    setStatsLoading(false);
   }
-  setStatsLoading(false);
 };

@@ -7,6 +7,6 @@ export const getCategory = (setCategoryLoading) => async (dispatch) => {
   const res = await api("get", Constants.END_POINT.CATEGORY);
   if (res.success && res.data) {
     dispatch(setCategory(res.data));
+    setCategoryLoading(false);
   }
-  setCategoryLoading(false);
 };

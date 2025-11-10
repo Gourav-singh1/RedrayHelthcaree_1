@@ -48,10 +48,45 @@
   content: "";
   position: absolute;
   left: 0;
-  bottom: -3px;
+  bottom: 1px;
   height: 3px;
   width: 100%;
   background-color: #000;
-  transform: scaleX(1) !important; 
+  transform: scaleX(1) !important;
   transition: transform 0.3s ease-in-out;
+}
+
+.bb_white {
+  border-bottom: 3px solid #ecdede;
+}
+
+/* Horizontal scroll setup */
+.p-tabview-nav {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  flex-wrap: nowrap !important;
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbar but still scrollable */
+.custom-scrollbar::-webkit-scrollbar {
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
+
+/* Make sure scroll works across all screen sizes */
+.p-tabview-nav li {
+  list-style: none;
+  flex: 0 0 auto;
 }
