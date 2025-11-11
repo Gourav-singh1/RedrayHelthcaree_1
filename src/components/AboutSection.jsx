@@ -15,7 +15,7 @@ function AboutSection() {
               data-aos-delay={700}
               //   data-aos-offset="200"
             >
-              About Radrays Helthcaree
+              About Radrays Healthcare
             </h2>
             <p
               className="text-sm font-medium text-white pt-3 line_Height_md"

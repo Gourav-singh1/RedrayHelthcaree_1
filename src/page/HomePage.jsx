@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Carousel } from "primereact/carousel";
 import { Skeleton } from "primereact/skeleton";
 import up from "../assets/images/webp/up.webp";
+import hand from "../assets/images/webp/hand.webp";
 import service from "../assets/images/webp/service.webp";
 import site from "../assets/images/webp/site.webp";
 import reating5 from "../assets/images/webp/reating5.webp";
@@ -340,6 +341,8 @@ export default function HomePage() {
               data-aos-offset="200"
             >
               <div className="p-3 px-4 md:px-3 lg:px-4 h-full text-center bg-white shadow-2 border-round-lg scale_hover">
+                {" "}
+                <img src={hand} alt="hand" />
                 <h2 className="text-base font-semibold">
                   Sales & Supply with transparent deals​
                 </h2>

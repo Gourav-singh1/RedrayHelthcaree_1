@@ -1,5 +1,8 @@
 import React from "react";
 import CallbackForm from "../components/CallbackForm";
+import emailicon from "../assets/images/svg/emailicon.svg";
+import locationicon from "../assets/images/svg/locationicon.svg";
+import phoneicon from "../assets/images/svg/phoneicon.svg";
 
 function ContactPage() {
   return (
@@ -23,38 +26,36 @@ function ContactPage() {
               Visit Us
             </h2>
             <div
-              className="flex align-content-center pt-4"
+              className="flex align-items-center pt-4"
               data-aos="fade-right"
               data-aos-offset="200"
               data-aos-delay="700"
             >
-              {/* <img width={20} src={location_Icon} alt="location_Icon" /> */}{" "}
-              <h1>icon</h1>
+              <img width={20} src={locationicon} alt="locationicon" />{" "}
               <h2 className="text-xs font-normal pl-5">
-                <span className="font-bold">Radray Helthcaree</span> <br />
-                Radray Helthcaree Plot No. 307, suncity colony , Hanuman Mandi
+                <span className="font-bold">Radrays Healthcare</span> <br />
+                Radrays Healthcare Plot No. 307, suncity colony , Hanuman Mandi
                 wali Gali , Adampur road ,agroha (Hisar ) 125047
               </h2>
             </div>
             <div
-              className="flex align-content-center pt-4"
+              className="flex align-items-center pt-4"
               data-aos="fade-right"
               data-aos-offset="200"
               data-aos-delay="800"
             >
-              {/* <img width={20} src={phone_calling} alt="phone_calling" /> */}
-              phone icon
+              <img width={20} src={phoneicon} alt="phoneicon" />
               <h2 className="text-xs font-normal pl-5">+91 9996337963</h2>
             </div>
             <div
-              className="flex align-content-center pt-4"
+              className="flex align-items-center pt-4"
               data-aos="fade-right"
               data-aos-offset="200"
               data-aos-delay="900"
             >
-              {/* <img width={20} src={email_icon} alt="email_icon" /> */}
+              <img width={20} src={emailicon} alt="email icon" />
               <h2 className="text-xs font-normal pl-5">
-                radhrayshelthcaree@gmail.com
+                radrayshealthcare@gmail@gmail.com
               </h2>
             </div>
           </div>
